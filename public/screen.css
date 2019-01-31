@@ -7,6 +7,54 @@ html {
 }
 
 body {
+  font: 13px helvetica, arial, sans-serif;
+  line-height: 1.4em;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+nav {
+  position: relative;
+  float: right;
+  margin-right: 9px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  height: 50px;
+}
+
+ul li {
+  list-style-type: none;
   margin: 0;
-  min-height: 100%;
+  padding: 15px;
+  display: flex;
+  float: right;
+  background-color: #f3f3f3;
+}
+
+dir {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+body img {
+  width: 29%;
+  float: left;
+  margin: 1.66%;
+  display: flex;
+  border: 0.12rem solid gray;
 }
